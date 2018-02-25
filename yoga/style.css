@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:url(Assets/fondos-de-pantalla-zen-wallpaper-01.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+h2{
+	font-size: 40px;
+	text-align: center;
+    font-family: 'Slabo 27px', serif;
+    color: #E84D0C;
+    
+}
+
+h3{
+    font-size: 30px;
+	text-align: left;
+    font-family: 'Slabo 27px', serif;
+    color: #E84D0C;
+     
+}
+
+p{
+   margin-left: 50px;
+   margin-right: 50px;
+   text-align: justify;
+   font-family: 'Lato', sans-serif;
+   font-size: 20px;
+   color: antiquewhite;
+}
+
+
+
+/*barre de navigation*/
+.navbar{
+    width: 100%;
+    margin:0;
+    text-align: center;  
+}
+
+.navbar li{
+    display: inline-block;
+    list-style: none;
+    line-height: 80px;
+     font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+
+.navbar a{
+    font-family: 'Slabo 27px', serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: darkslategrey;
+    
+}
+
+
+.logo{
+    width: 100%;
+    height:400px;
+}
+
+.logo img{
+    
+    height: 400px;
+    margin-top:30px;
+    margin-left: 450px;
+}
+
+.navbas{
+    background: rgba(0,0,7, 0.5) ;
+    width: 100%;
+    text-align: center;
+}
+
+.navbas li{
+    display: inline-block;
+    list-style: none;
+    font-family: 'Slabo 27px', serif;
+    font-weight: 600;
+    color:white;
+    font-size: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 80px;
+}
+
+footer ul li span{
+    color: #E84D0C;
+}
+
+/*div 1*/
+
+.styles{
+    width: 60%;
+    height: auto;
+    background-color: rgba(0,0,7, 0.5);
+    padding: 40px;
+    margin: 100px auto;
+}
+
+.photos{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photos img{
+    width: 240px;
+    height: 200px;
+}
+
+/*slides*/
+
+
+.slide0,.slide1,.slide2,.slide3{
+    width: 100%;
+    height: 100vh;
+}
+
+.slide1{
+    background: url(Assets/illustration-salon-des-z-arts-zen_1-1482056595.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+        
+}
+
+.slide2{
+    background: url(Assets/barre%20pub.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
+.slide3{
+    background: url(Assets/green-tea-1024x659.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+
